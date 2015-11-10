@@ -1,0 +1,121 @@
+/*FONT*/
+@CHARSET "ISO-8859-1";
+
+/*GENERAL*/
+body {
+	margin:0;
+	background: #EEE;
+}
+.clear {
+	clear: both;
+}
+.invisible {
+	display: none;
+}
+p.error {
+	color: #9C0505;
+	padding: 20px;
+	font-size: 18px;
+}
+
+/*ENCABEZADO*/
+.encabezado {
+	margin: 0;
+	padding: 20px 0; 
+	background: #334D49;
+	color: white;
+	text-align: center;
+}
+
+/*MENÚ NAVEGACIÓN*/
+.nav {
+	background: #3D615B;
+}
+	.nav ul {
+		list-style: none;
+		padding: 0px;
+		margin: 0 10px;
+	}	
+		.nav ul li {
+			display: inline;
+			float: left;
+		}
+			.nav ul li a {
+				font-family: Helvetica, sans-serif;
+				color: #fff;
+				text-decoration: none;
+				font-size: 16px;
+				display: block;
+				padding: 10px;
+				background: #3D615B;
+			}
+				.nav ul li a:hover {
+					background: #0F1313;
+				}
+
+
+/*CONTENIDO*/
+.contenido_vacio {
+	height: 225px;
+}
+form {
+	margin:20px;
+}
+	td, th {
+		border: 1px solid black;
+		padding: 0;
+	}
+	th {
+		background-color: #777;
+		color: #eee;
+		font-size: 13px;
+		padding: 0 5px;
+		font-family: Helvetica, sans-serif;
+	}
+	th a {
+		color: #eee;
+		font-size: 13px;
+		text-decoration: none;
+	}
+		th a:hover {
+			text-decoration: underline;
+		}
+	.encabezado_principal_tabla {
+		background: #333;
+		padding: 5px;
+	}
+	.boton_salvar {
+		margin: 10px 40%;
+	}
+
+/*Contenido formularios:*/
+.formulario {
+	margin: 30px;
+}
+	.formulario div {
+		display: inline-block;
+	}
+	.formulario input,
+	.formulario select {
+		margin: 10px;
+	}
+
+
+/*PIE DE PÁGINA*/
+footer {
+	margin-top: 100px;
+	border-top: 4px black solid;
+	height: 100px;
+}
+	footer img, footer p {
+		display: inline-block;
+		float: left;
+	}
+		footer img {
+			padding-left: 5px;
+		}
+		footer p {
+			padding: 24px 12px;
+		    font-size: 18px;
+		    font-weight: 700;
+		}
